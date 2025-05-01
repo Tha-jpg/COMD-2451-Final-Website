@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>W3.CSS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="css/my-styles.css">
+        <link rel="assets"     href="assets/">
+        <script src="js/myscript.js"></script>
+    </head>
+    <body>
+        <div>
+            <header class="w3-container w3-black">  <!--w3-container adds 16 pixels of padding 
+                around each element; w3-green makes the background green -->
+                <h1>We'll figure this out - Portfolio</h1>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="resume.html">Resume</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+            </header>
+ 
+            <div class="w3-container">
+                <h1>word vomit </h1>
+            </div>
+            
+            <section class="w3-container ">
+                <p>Below there are three row images that use different combinations of row styles to 
+                    create a gallery page. Each row is a &lt;section&gt; that has three images. 
+                    Each image is part of a set of markup that includes a heading and a paragraph 
+                    holding the image. The heading and image are contained in an &lt;article&gt; 
+                    element.</p>
+                    <button class="button" type="button" onclick="document.getElementById('demo').innerHTML=Date()">Touch Me!</button>
+                    <h3 id="demo"></h3>
+
+            </section>
+           
+            <section class="w3-row-padding row-color-1"> <!-- In this row, we  have the w3-row class only, which defines 
+                a padding-less container. Without the w3-container property, you don't get padding 
+                between the elements. -->
+                
+                <article class="w3-col s12 m4 l4">
+
+                    <h4>"pink tape"</h4>
+                    <p><a href="assets/Project_1_150ppi.jpg"><img src="assets/Project_1_72ppi.jpg" alt="Album cover remake"></a></p>
+                   
+                </article>
+                <article class="w3-col s12 m4 l4">
+                    <h4><a title="Sourced album cover">whar?</a></h4>
+                    <p><a href="assets/Esound_150ppi.jpg"><img src="assets/Esound_72ppi.jpg" alt="Sourced album cover"></a></p>
+                </article>
+                <article class="w3-col s12 m4 l4">
+                    <h4>Not a Jaguar</h4>
+                    <p><a href="assets/Uzi_1_300ppi.jpg"><img src="assets/Uzi_1_150ppi.jpg" alt="we'll figure out how to describe this in a bit"></a></p>
+                    </article>
+                </article>
+            </section>
+            <section class="w3-container"> <!-- w3-container adds 16 pixels of padding around each element -->
+                <br>
+                <h3>w3-row only</h3>
+                <p>The <i>w3-row</i> class defines a padding-less container. Notice that there are no 
+                    margins and no gutters :</p>
+                <p>&lt;section class="w3-row"&gt;<br>
+                    &lt;article class="w3-col s12 m4 l4"&gt;</p>
+            </section>
+        <section class="w3-row-padding row-color-1"> <!-- The w3-row-padding class adds 8 pixels of padding around each element.  -->
+                
+                <article class="w3-col s12 m4 l4">
+                    <h4>Poatan</h4>
+                    <p><a href="assets/Poatan_300ppi.jpg"><img src="assets/Poatan_300ppi.jpg" alt="Stone hands"></a></p>
+                </article>
+                <article class="w3-col s12 m4 l4">
+                    <h4><a title="Do bronx">Do BRONX!</a></h4>
+                    <p><a href="assets/Olivera_300ppi.jpg"><img src="assets/Olivera_300ppi.jpg" alt="The Champion Has A Name!"></a></p>
+                </article>
+                <article class="w3-col s12 m4 l4">
+                    <h4>The Diamond</h4>
+                    <p><img src="assets/Dustin_300ppi.jpg" alt="GUILLY GOOSE"></p>
+                </article>
+            </section>
+        
+            <section class="w3-container"> 
+                <br> 
+                <h3>TYPE!</h3>
+                <p>While the <i>w3-row</i> class defines a padding-less container, when you also have 
+                    <i>w3-container</i>, it adds 16-pixel padding around the entire row, but not between 
+                    the contained elements, so you now see margins on each side of the page, but no gutters:</p>
+                    <p>&lt;section class="w3-container w3-row"&gt;<br>
+                    &lt;article class="w3-col s12 m4 l4"&gt;</p>
+            </section>
+            <section class="w3-row-padding row-color-1"> <!-- The w3-row-padding class adds 8 pixels of padding around each element.  -->
+                
+                <article class="w3-col s12 m4 l4">
+                    <h4>Virgil</h4>
+                    <p><a href="assets/Layout_V_300ppi.jpg"><img src="assets/Layout_V_72ppi.jpg" alt="The Goat"></a></p>
+                </article>
+                <article class="w3-col s12 m4 l4">
+                    <h4><a title="rachel">Rachel!</a></h4>
+                    <p><a href="assets/Layout_V_300ppi.jpg"><img src="assets/Layout_R_72ppi.jpg" alt="I don't know this woman"></a></p>
+                </article>
+                <article class="w3-col s12 m4 l4">
+                    <h4>zaha</h4>
+                    <p><a href="assets/Layout_Z_300ppi"><img src="assets/Layout_Z_72ppi.jpg" alt="I don't Know this lady!!!"></a></p>
+                </article>
+            </section>
+
+         
+
+            <footer>
+                <p>&copy; Copyright 2020</p>
+            </footer>
+        </div>
+	</body>
+</html>
